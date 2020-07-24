@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_yeucau">
+
+    <fragment
+        android:id="@+id/nav_yeucau"
+        android:name="com.nguyenthai.qlcv.ui.yeucau.YeuCauFragment"
+        android:label="Yêu Cầu"
+        tools:layout="@layout/fragment_yeucau" />
+
+    <fragment
+        android:id="@+id/nav_bsc"
+        android:name="com.nguyenthai.qlcv.ui.bsc.BSCFragment"
+        android:label="BSC"
+        tools:layout="@layout/fragment_cauhinh" />
+
+
+</navigation>

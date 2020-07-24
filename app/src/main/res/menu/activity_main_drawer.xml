@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Nghiệp vụ">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <TextView
+                    android:id="@+id/text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ABC" />
+
+                <item
+                    android:id="@+id/nav_yeucau"
+                    android:icon="@drawable/ic_yeucau"
+                    android:title="Quản lý Yêu cầu" />
+                <item
+                    android:id="@+id/nav_bsc"
+                    android:icon="@drawable/ic_bsc"
+                    android:title="Tra cứu BSC" />
+
+            </group>
+        </menu>
+    </item>
+
+
+    <item android:title="DANH MỤC">
+        <menu>
+            <item
+                android:id="@+id/nav_sli1"
+                android:icon="@drawable/ic_cauhinh"
+                android:title="Cấu Hình 2" />
+            <item
+                android:id="@+id/nav_sli2"
+                android:icon="@drawable/ic_cauhinh"
+                android:title="Cấu Hình 2" />
+
+        </menu>
+    </item>
+
+</menu>

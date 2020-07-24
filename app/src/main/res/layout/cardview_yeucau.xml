@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    android:background="#FFFFFF"
+    android:paddingLeft="20dp"
+    android:paddingTop="20dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="20dp"
+    app:cardCornerRadius="30px">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20px"
+        android:layout_marginTop="20px"
+        android:layout_marginRight="20px"
+        android:layout_marginBottom="20px"
+        android:background="#FFFFFF">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/comfortaa_light"
+                android:text="Mã yêu cầu"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/txt_yc_mayeucau"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20px"
+                android:fontFamily="@font/comfortaa_bold"
+                android:text="012345"
+                android:textAlignment="viewStart"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="#2196F3" />
+
+            <TextView
+                android:id="@+id/txt_yc_trangthai"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20px"
+                android:layout_weight="1"
+                android:fontFamily="@font/comfortaa_bold"
+                android:text="Đã xử lý"
+                android:textAlignment="textEnd"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="#F44336" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/comfortaa_light"
+                android:text="Tên yêu cầu"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/txt_yc_tenyeucau"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20px"
+                android:fontFamily="@font/comfortaa_bold"
+                android:text="ĐHSXKD"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="#2196F3" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txt_tentaikhoan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/comfortaa_light"
+                android:text="Loại yêu cầu"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/txt_yc_loaiyeucau"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20px"
+                android:fontFamily="@font/comfortaa_bold"
+                android:text="Khác"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="#2196F3" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/comfortaa_light"
+                android:text="Yêu cầu"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/txt_yc_ndyeucau"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20px"
+                android:fontFamily="@font/comfortaa_bold"
+                android:text="Công việc 1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="#2196F3" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/comfortaa_light"
+                android:text="Đơn vị yêu cầu"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/txt_yc_donviyeucau"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20px"
+                android:fontFamily="@font/comfortaa_bold"
+                android:text="Viễn Thông Trà Vinh"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="#2196F3" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/comfortaa_light"
+                android:text="Người tạo"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/txt_yc_nguoitao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20px"
+                android:fontFamily="@font/comfortaa_bold"
+                android:text="Nguyễn Văn Nam"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="#2196F3" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/comfortaa_light"
+                android:text="Người xử lý"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/txt_yc_nguoixuly"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20px"
+                android:fontFamily="@font/comfortaa_bold"
+                android:text="Huỳnh Sa Quang"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="#2196F3" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/comfortaa_light"
+                android:text="Tần suất"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/txt_yc_tansuat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20px"
+                android:fontFamily="@font/comfortaa_bold"
+                android:text="N/A"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="#2196F3" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/comfortaa_light"
+                android:text="Mức độ"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/txt_yc_mucdo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20px"
+                android:fontFamily="@font/comfortaa_bold"
+                android:text="N/A"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="#2196F3" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textview9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/comfortaa_light"
+                android:text="Ưu tiên"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/txt_yc_uutien"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20px"
+                android:fontFamily="@font/comfortaa_bold"
+                android:text="Thấp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="#2196F3" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/comfortaa_light"
+                android:text="Gửi SMS"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/txt_yc_guisms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20px"
+                android:fontFamily="@font/comfortaa_bold"
+                android:text="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="#2196F3" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/comfortaa_light"
+                android:text="Ngày tạo"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/txt_yc_ngaytao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20px"
+                android:fontFamily="@font/comfortaa_bold"
+                android:text="26/6/2020 10:30"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="#2196F3" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/comfortaa_light"
+                android:text="Ngày bắt đầu"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/txt_yc_ngaybatdau"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20px"
+                android:fontFamily="@font/comfortaa_bold"
+                android:text="26/6/2020 10:40"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="#2196F3" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/comfortaa_light"
+                android:text="Ngày kết thúc"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/txt_yc_ngayketthuc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20px"
+                android:fontFamily="@font/comfortaa_bold"
+                android:text="26/6/2020 10:30"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="#2196F3" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/comfortaa_light"
+                android:text="Ngày kết thúc TT"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/txt_yc_ngayketthuctt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20px"
+                android:fontFamily="@font/comfortaa_bold"
+                android:text="26/6/2020 10:40"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="#2196F3" />
+        </TableRow>
+
+    </TableLayout>
+</androidx.cardview.widget.CardView>
